@@ -15,10 +15,11 @@ body {
     background: linear-gradient(135deg, #36D1DC, #5B86E5);
 }
 
-.timer {
+#timer {
     background-color: #d0eaf2;
     padding: 2rem;
     border-radius: 10%;
+    font-weight: 500;
 }
 
 #clock {
@@ -35,12 +36,12 @@ body {
     margin-bottom: 0.5em;
 }
 
-.options {
+#options {
     display: flex;
     gap: 4rem;
 }
 
-.options button{
+#options button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,4 +50,5 @@ body {
     background-color: #5B86E5;
     color : #d0eaf2;
     border-radius: 10%;
+    cursor: pointer;
 }
