@@ -14,6 +14,7 @@ body {
     height: 100vh;
     width: 100%;
     background: linear-gradient(135deg, #36D1DC, #5B86E5);
+    flex-direction: column;
 }
 
 /* Relógio */
@@ -22,6 +23,7 @@ body {
     padding: 2rem;
     border-radius: 10%;
     font-weight: 500;
+    height: 1;
 }
 
 #clock {
@@ -83,4 +85,10 @@ body {
     justify-content: center;
     align-items: center;
     margin-right: 2em;
+}
+
+#ass {
+    color: #d0eaf2;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1em;
 }
