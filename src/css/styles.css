@@ -17,13 +17,16 @@ body {
     flex-direction: column;
 }
 
-/* Relógio */
-#timer {
+#back {
     background-color: #d0eaf2;
     padding: 2rem;
     border-radius: 10%;
     font-weight: 500;
-    height: 1;
+}
+
+/* Relógio */
+#timer {
+    display: flex;
 }
 
 #clock {
@@ -43,15 +46,19 @@ body {
 /* Botões */
 #options {
     display: flex;
-    gap: 0.75rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em 0em;
+    margin-left: 2em;
 }
 
 #options button{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 50px;
+    width: 4em;
+    height: 4em;
     background-color: #5B86E5;
     color : #d0eaf2;
     border-radius: 10%;
